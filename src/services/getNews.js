@@ -24,6 +24,6 @@ export const getNews = async ({searchQuery = 'technology'}) => {
             return resData
         }
     } catch(error) {
-        console.error('Error getting tech news: '.error)
+        console.error('Error getting tech news: ' + error)
     }
 }
